@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body.sign-up-body {
+    background-image: url('/images/map_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    height: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+input {
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
